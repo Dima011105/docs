@@ -179,26 +179,26 @@
 
 <h2 class="page-header">Приклади</h2>
 <pre class="brush: html;">
-[+myplaceholder:is=myvalue:then=Правильно:else=Неправильно+]
+[+myplaceholder:is="myvalue":then="Правильно":else="Неправильно"+]
 </pre>
 <pre class="brush: html;">
-[+myplaceholder:isnot=myvalue:then=Правильно:else=Неправильно+]
-[+myplaceholder:is=othervalue:then=Правильно:else=Неправильно+]
+[+myplaceholder:isnot="myvalue":then="Правильно":else="Неправильно"+]
+[+myplaceholder:is="othervalue":then="Правильно":else="Неправильно"+]
 </pre>
 <pre class="brush: html;">
-[+myplaceholder:is=2:then=``:else=``+]
+[+myplaceholder:is="2":then=``:else=``+]
 </pre>
 <pre class="brush: html;">
-[+myplaceholder:gt=1:then=Yes:else=No+]
-[+myplaceholder:lt=3:and:gt=1:then=Yes:else=No+]
-[+myplaceholder:lt=[+someplaceholder+]:then=Yes:else=No+]
-[+myplaceholder:islt=2:then=Yes:else=No+]
-[+myplaceholder:isnot=2:or:lt=3:then=Yes:else=No+]
+[+myplaceholder:gt="1":then="Yes":else="No"+]
+[+myplaceholder:lt="3":and:gt="1":then="Yes":else="No"+]
+[+myplaceholder:lt="[+someplaceholder+]":then="Yes":else="No"+]
+[+myplaceholder:islt="2":then="Yes":else="No"+]
+[+myplaceholder:isnot="2":or:lt="3":then="Yes":else="No"+]
 </pre>
 <pre class="brush: html;">
-[+myplaceholder:isnot=2:then=Yes:else=No+]
-[+myplaceholder:gt=[+someplaceholder+]:then=Yes:else=No+]
-[+myplaceholder:lt=2:then=Yes:else=No+]
-[+myplaceholder:gt=2:then=Yes:else=No+]
-[+myplaceholder:lt=1:then=Yes:else=No+]
+[+myplaceholder:isnot="2":then="Yes":else="No"+]
+[+myplaceholder:gt="[+someplaceholder+]":then="Yes":else="No"+]
+[+myplaceholder:lt="2":then="Yes":else="No"+]
+[+myplaceholder:gt="2":then="Yes":else="No"+]
+[+myplaceholder:lt="1":then="Yes":else="No"+]
 </pre>
